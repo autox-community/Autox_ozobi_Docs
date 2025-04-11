@@ -11,20 +11,20 @@
     },
     {
         "type": "dir",
-        "name": "基础",
+        "name": "basic",
         "label": "基础",
         "collapsible": true
     },
     {
         "type": "dir",
-        "name": "高级",
+        "name": "advanced",
         "label": "高级",
         "collapsible": true
     },
     {
         "type": "dir",
-        "name": "npm模块",
-        "label": "npm模块",
+        "name": "npm",
+        "label": "npm 模块",
         "collapsible": true
     },
     {
