@@ -3,8 +3,8 @@ import { defineConfig } from "rspress/config";
 export default defineConfig({
     // 文档根目录
     root: "docs",
-    base: "/Autoxjs_v6_ozobi",
-    title: "Autoxjs_v6_ozobi",
+    base: "/Autox_ozobi_Docs",
+    title: "Autox_ozobi_Docs",
     markdown: {
         showLineNumbers: true,
     },
