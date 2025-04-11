@@ -1,0 +1,82 @@
+[
+    {
+        "type": "dir",
+        "name": "ui",
+        "label": "用户界面 - UI",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "file",
+        "name": "app.md",
+        "label": "App"
+    },
+    {
+        "type": "file",
+        "name": "device.md",
+        "label": "设备 - device"
+    },
+    {
+        "type": "file",
+        "name": "globals.md",
+        "label": "全局变量与函数"
+    },
+    {
+        "type": "dir",
+        "name": "widgetsBasedAutomation",
+        "label": "基于控件的操作",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "coordinatesBasedAutomation",
+        "label": "基于坐标的操作",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "keys",
+        "label": "按键模拟 - Keys",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "files",
+        "label": "文件系统 - Files",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "file",
+        "name": "http.md",
+        "label": "HTTP"
+    },
+    {
+        "type": "file",
+        "name": "websocket.md",
+        "label": "Websocket"
+    },
+    {
+        "type": "file",
+        "name": "mqtt.md",
+        "label": "MQTT"
+    },
+    {
+        "type": "file",
+        "name": "storages.md",
+        "label": "本地存储 - Storages"
+    },
+    {
+        "type": "file",
+        "name": "console.md",
+        "label": "控制台 - Console"
+    },
+    {
+        "type": "file",
+        "name": "timers.md",
+        "label": "定时器 - Timers"
+    }
+]

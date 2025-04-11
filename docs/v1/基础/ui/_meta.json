@@ -1,0 +1,127 @@
+[
+    {
+        "type": "file",
+        "name": "view.md",
+        "label": "视图: view"
+    },
+    {
+        "type": "file",
+        "name": "text.md",
+        "label": "文本控件: text"
+    },
+    {
+        "type": "file",
+        "name": "button.md",
+        "label": "按钮控件: button"
+    },
+    {
+        "type": "file",
+        "name": "input.md",
+        "label": "输入框控件: input"
+    },
+    {
+        "type": "file",
+        "name": "img.md",
+        "label": "图片控件: img"
+    },
+    {
+        "type": "file",
+        "name": "vertical.md",
+        "label": "垂直布局: vertical"
+    },
+    {
+        "type": "file",
+        "name": "horizontal.md",
+        "label": "水平布局: horizontal"
+    },
+    {
+        "type": "file",
+        "name": "linear.md",
+        "label": "线性布局: linear"
+    },
+    {
+        "type": "file",
+        "name": "frame.md",
+        "label": "帧布局: frame"
+    },
+    {
+        "type": "file",
+        "name": "relative.md",
+        "label": "相对布局: relative"
+    },
+    {
+        "type": "file",
+        "name": "checkbox.md",
+        "label": "勾选框控件: checkbox"
+    },
+    {
+        "type": "file",
+        "name": "radio.md",
+        "label": "单选框控件: radio"
+    },
+    {
+        "type": "file",
+        "name": "radiogroup.md",
+        "label": "单选框组控件: radiogroup"
+    },
+    {
+        "type": "file",
+        "name": "switch.md",
+        "label": "开关控件: switch"
+    },
+    {
+        "type": "file",
+        "name": "progressbar.md",
+        "label": "进度条控件: progressbar"
+    },
+    {
+        "type": "file",
+        "name": "seekbar.md",
+        "label": "拖动条控件: seekbar"
+    },
+    {
+        "type": "file",
+        "name": "spinner.md",
+        "label": "下拉菜单控件: spinner"
+    },
+    {
+        "type": "file",
+        "name": "timepicker.md",
+        "label": "时间选择器控件: timepicker"
+    },
+    {
+        "type": "file",
+        "name": "datepicker.md",
+        "label": "日期选择器控件: datepicker"
+    },
+    {
+        "type": "file",
+        "name": "fab.md",
+        "label": "浮动按钮控件: fab"
+    },
+    {
+        "type": "file",
+        "name": "toolbar.md",
+        "label": "标题栏控件: toolbar"
+    },
+    {
+        "type": "file",
+        "name": "card.md",
+        "label": "卡片: card"
+    },
+    {
+        "type": "file",
+        "name": "drawer.md",
+        "label": "抽屉: drawer"
+    },
+    {
+        "type": "file",
+        "name": "tab.md",
+        "label": "标签页: tab"
+    },
+    {
+        "type": "file",
+        "name": "viewAttributes.md",
+        "label": "视图属性"
+    }
+]

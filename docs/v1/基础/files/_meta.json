@@ -1,0 +1,22 @@
+[
+    {
+        "type": "file",
+        "name": "files.md",
+        "label": "files"
+    },
+    {
+        "type": "file",
+        "name": "openAndClose.md",
+        "label": "openAndClose"
+    },
+    {
+        "type": "file",
+        "name": "readableTextFile.md",
+        "label": "ReadableTextFile"
+    },
+    {
+        "type": "file",
+        "name": "pWritableTextFile.md",
+        "label": "PWritableTextFile"
+    }
+]

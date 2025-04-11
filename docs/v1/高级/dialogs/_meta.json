@@ -1,0 +1,12 @@
+[
+    {
+        "type": "file",
+        "name": "dialogs.md",
+        "label": "dialogs"
+    },
+    {
+        "type": "file",
+        "name": "dialog.md",
+        "label": "Dialog"
+    }
+]

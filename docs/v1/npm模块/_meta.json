@@ -1,0 +1,37 @@
+[
+    {
+        "type": "file",
+        "name": "cheerio.md",
+        "label": "cheerio"
+    },
+    {
+        "type": "file",
+        "name": "buffer.md",
+        "label": "buffer"
+    },
+    {
+        "type": "file",
+        "name": "stream.md",
+        "label": "stream"
+    },
+    {
+        "type": "file",
+        "name": "event-stream.md",
+        "label": "event-stream"
+    },
+    {
+        "type": "file",
+        "name": "events.md",
+        "label": "events"
+    },
+    {
+        "type": "file",
+        "name": "lodash.md",
+        "label": "lodash"
+    },
+    {
+        "type": "file",
+        "name": "rxjs.md",
+        "label": "rxjs"
+    }
+]

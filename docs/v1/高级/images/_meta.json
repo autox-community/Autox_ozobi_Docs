@@ -1,0 +1,32 @@
+[
+    {
+        "type": "file",
+        "name": "colors.md",
+        "label": "颜色 - Colors"
+    },
+    {
+        "type": "file",
+        "name": "images.md",
+        "label": "图片 - Images"
+    },
+    {
+        "type": "file",
+        "name": "findColorOrImage.md",
+        "label": "找图找色"
+    },
+    {
+        "type": "file",
+        "name": "matchingResult.md",
+        "label": "匹配结果 - MatchingResult"
+    },
+    {
+        "type": "file",
+        "name": "image.md",
+        "label": "图片 - Image"
+    },
+    {
+        "type": "file",
+        "name": "point.md",
+        "label": "坐标 - Point"
+    }
+]

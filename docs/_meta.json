@@ -1,0 +1,7 @@
+[
+    {
+        "text": "Guide",
+        "link": "/guides/introduction",
+        "activeMatch": "^/guides/"
+    }
+]

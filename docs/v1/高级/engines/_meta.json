@@ -1,0 +1,22 @@
+[
+    {
+        "type": "file",
+        "name": "engines.md",
+        "label": "Engines"
+    },
+    {
+        "type": "file",
+        "name": "scriptExecution.md",
+        "label": "ScriptExecution"
+    },
+    {
+        "type": "file",
+        "name": "scriptEngine.md",
+        "label": "ScriptEngine"
+    },
+    {
+        "type": "file",
+        "name": "scriptConfig.md",
+        "label": "ScriptConfig"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "type": "file",
+        "name": "shell.md",
+        "label": "Shell"
+    },
+    {
+        "type": "file",
+        "name": "amCommand.md",
+        "label": "am 命令"
+    },
+    {
+        "type": "file",
+        "name": "pmCommand.md",
+        "label": "pm 命令"
+    },
+    {
+        "type": "file",
+        "name": "otherCommand.md",
+        "label": "其他命令"
+    }
+]

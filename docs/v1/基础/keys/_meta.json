@@ -1,0 +1,12 @@
+[
+    {
+        "type": "file",
+        "name": "keys.md",
+        "label": "Keys"
+    },
+    {
+        "type": "file",
+        "name": "keyCode.md",
+        "label": "KeyCode 对照表"
+    }
+]

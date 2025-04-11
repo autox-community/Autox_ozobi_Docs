@@ -1,0 +1,17 @@
+[
+    {
+        "type": "file",
+        "name": "floaty.md",
+        "label": "Floaty"
+    },
+    {
+        "type": "file",
+        "name": "floatyWindow.md",
+        "label": "FloatyWindow"
+    },
+    {
+        "type": "file",
+        "name": "floatyRawWindow.md",
+        "label": "FloatyRawWindow"
+    }
+]

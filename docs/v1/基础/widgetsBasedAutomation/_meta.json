@@ -1,0 +1,42 @@
+[
+    {
+        "type": "file",
+        "name": "about.md",
+        "label": "关于"
+    },
+    {
+        "type": "file",
+        "name": "auto.md",
+        "label": "auto"
+    },
+    {
+        "type": "file",
+        "name": "simpleActionAutomator.md",
+        "label": "SimpleActionAutomator"
+    },
+    {
+        "type": "file",
+        "name": "uiSelector.md",
+        "label": "UiSelector"
+    },
+    {
+        "type": "file",
+        "name": "uiObject.md",
+        "label": "UiObject"
+    },
+    {
+        "type": "file",
+        "name": "uiCollection.md",
+        "label": "UiCollection"
+    },
+    {
+        "type": "file",
+        "name": "rect.md",
+        "label": "Rect"
+    },
+    {
+        "type": "file",
+        "name": "uiSelector进阶.md",
+        "label": "UiSelector 进阶"
+    }
+]

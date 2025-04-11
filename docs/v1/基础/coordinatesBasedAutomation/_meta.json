@@ -1,0 +1,27 @@
+[
+    {
+        "type": "file",
+        "name": "about.md",
+        "label": "关于"
+    },
+    {
+        "type": "file",
+        "name": "setScreenMetrics.md",
+        "label": "setScreenMetrics"
+    },
+    {
+        "type": "file",
+        "name": "touchAndGestureSimulation.md",
+        "label": "安卓 7.0 以上的触摸和手势模拟"
+    },
+    {
+        "type": "file",
+        "name": "rootAutomator.md",
+        "label": "RootAutomator"
+    },
+    {
+        "type": "file",
+        "name": "simpleRootApi.md",
+        "label": "使用 root 权限点击和滑动的简单命令"
+    }
+]

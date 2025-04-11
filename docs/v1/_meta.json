@@ -1,0 +1,35 @@
+[
+    {
+        "type": "file",
+        "name": "overview.mdx",
+        "label": "综述"
+    },
+    {
+        "type": "file",
+        "name": "documentation.md",
+        "label": "关于本文档"
+    },
+    {
+        "type": "dir",
+        "name": "基础",
+        "label": "基础",
+        "collapsible": true
+    },
+    {
+        "type": "dir",
+        "name": "高级",
+        "label": "高级",
+        "collapsible": true
+    },
+    {
+        "type": "dir",
+        "name": "npm模块",
+        "label": "npm模块",
+        "collapsible": true
+    },
+    {
+        "type": "file",
+        "name": "qa.md",
+        "label": "常见问题"
+    }
+]

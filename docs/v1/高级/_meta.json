@@ -1,0 +1,109 @@
+[
+    {
+        "type": "dir",
+        "name": "threads",
+        "label": "多线程 - Threads",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "dialogs",
+        "label": "对话框 - Dialogs",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "floaty",
+        "label": "悬浮窗 - Floaty",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "engines",
+        "label": "脚本引擎 - Engines",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "file",
+        "name": "canvas.md",
+        "label": "画布 - Canvas"
+    },
+    {
+        "type": "file",
+        "name": "modules.md",
+        "label": "模块 - Modules"
+    },
+    {
+        "type": "file",
+        "name": "ocr.md",
+        "label": "文字识别 - OCR"
+    },
+    {
+        "type": "dir",
+        "name": "images",
+        "label": "图片与颜色",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "file",
+        "name": "events.md",
+        "label": "事件与监听 - Events"
+    },
+    {
+        "type": "file",
+        "name": "base64.md",
+        "label": "Base64"
+    },
+    {
+        "type": "file",
+        "name": "crypto.md",
+        "label": "消息处理(加密、摘要) - Crypto"
+    },
+    {
+        "type": "file",
+        "name": "zips.md",
+        "label": "压缩与解压 - Zips"
+    },
+    {
+        "type": "file",
+        "name": "media.md",
+        "label": "多媒体 - Media"
+    },
+    {
+        "type": "file",
+        "name": "sensors.md",
+        "label": "传感器 - Sensors"
+    },
+    {
+        "type": "file",
+        "name": "continuation.md",
+        "label": "协程"
+    },
+    {
+        "type": "file",
+        "name": "webViewAndHtml.md",
+        "label": "WebView 与 HTML"
+    },
+    {
+        "type": "dir",
+        "name": "shell",
+        "label": "Shell",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "file",
+        "name": "workWithJava.md",
+        "label": "调用 Java"
+    },
+    {
+        "type": "file",
+        "name": "axios.md",
+        "label": "axios"
+    }
+]
