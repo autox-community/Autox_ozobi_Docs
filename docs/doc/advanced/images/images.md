@@ -1,5 +1,5 @@
 # Images
- 
+
 :::tip 稳定性: 稳定
 
 :::
@@ -198,7 +198,7 @@ images.save(clip, "/sdcard/clip.png");
 
 灰度化图片，并返回灰度化后的图片。
 
-## image.threshold(img, threshold, maxVal[, type])
+## images.threshold(img, threshold, maxVal[, type])
 
 **[v4.1.0 新增]**
 
