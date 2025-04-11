@@ -20,7 +20,7 @@ const CrewCard: React.FC<CrewCardProps> = ({ avatar, nickname, comment }) => {
     };
     const avatarStyle: React.CSSProperties = {
         width: "auto",
-        height: "50px",
+        height: "68px",
         borderRadius: "50%",
         marginRight: "10px",
     };
@@ -43,7 +43,7 @@ const CrewCard: React.FC<CrewCardProps> = ({ avatar, nickname, comment }) => {
         <div style={cardStyle}>
             <img src={avatar} alt="avatar" style={avatarStyle} />
             <div>
-                <div style={nicknameStyle}>{nickname?.endsWith("(开发者)")?nickname.slice(0,nickname.indexOf("(开发者)")):nickname}</div>
+                <div style={nicknameStyle}>{nickname?.endsWith("(开发者)") ? nickname.slice(0, nickname.indexOf("(开发者)")) : nickname}</div>
                 <div style={commentStyle}>{comment}</div>
             </div>
         </div>
