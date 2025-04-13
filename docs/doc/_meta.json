@@ -11,6 +11,12 @@
     },
     {
         "type": "dir",
+        "name": "modification",
+        "label": "魔改专区",
+        "collapsible": true
+    },
+    {
+        "type": "dir",
         "name": "basic",
         "label": "基础",
         "collapsible": true

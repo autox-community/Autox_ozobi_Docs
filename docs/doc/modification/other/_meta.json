@@ -1,0 +1,47 @@
+[
+    {
+        "type": "file",
+        "name": "appFunction.md",
+        "label": "app 功能"
+    },
+    {
+        "type": "file",
+        "name": "appDrawer.md",
+        "label": "app 抽屉页面"
+    },
+    {
+        "type": "file",
+        "name": "appUI.md",
+        "label": "app UI"
+    },
+    {
+        "type": "file",
+        "name": "appFloaty.md",
+        "label": "app 悬浮窗"
+    },
+    {
+        "type": "file",
+        "name": "layoutInspection.md",
+        "label": "布局分析"
+    },
+    {
+        "type": "file",
+        "name": "rootAutomator.md",
+        "label": "RootAutomator"
+    },
+    {
+        "type": "file",
+        "name": "project.md",
+        "label": "项目 - Project"
+    },
+    {
+        "type": "file",
+        "name": "setClip.md",
+        "label": "setClip"
+    },
+    {
+        "type": "file",
+        "name": "appEditor.md",
+        "label": "app 代码编辑器"
+    }
+]

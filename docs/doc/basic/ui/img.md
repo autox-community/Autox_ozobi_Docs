@@ -11,7 +11,7 @@
 如果使用图片地址或本地路径，Auto.js会自动使用适当的缓存来储存这些图片，减少下次加载的时间。
 
 例如，显示百度的logo:
-```
+```js
 "ui";
 ui.layout(
     <frame>
@@ -22,7 +22,7 @@ ui.layout(
 
 再例如，显示文件/sdcard/1.png的图片为 `<img src="file:///sdcard/1.png"/>`。
 再例如，使base64显示一张钱包小图片为：
-```
+```js
 "ui";
 ui.layout(
     <frame>

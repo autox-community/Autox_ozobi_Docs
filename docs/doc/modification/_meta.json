@@ -1,0 +1,65 @@
+[
+    {
+        "type": "dir",
+        "name": "ui",
+        "label": "用户界面 - UI",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "file",
+        "name": "device.md",
+        "label": "设备 - Device"
+    },
+    {
+        "type": "dir",
+        "name": "globals",
+        "label": "全局变量与函数",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "file",
+        "name": "widgetsBasedAutomation.md",
+        "label": "基于控件的操作"
+    },
+    {
+        "type": "file",
+        "name": "http.md",
+        "label": "HTTP"
+    },
+    {
+        "type": "file",
+        "name": "storages.md",
+        "label": "本地存储 - Storages"
+    },
+    {
+        "type": "dir",
+        "name": "floaty",
+        "label": "悬浮窗 - Floaty",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "file",
+        "name": "images.md",
+        "label": "图片与颜色 - Images"
+    },
+    {
+        "type": "file",
+        "name": "timeUtils.md",
+        "label": "时间工具"
+    },
+    {
+        "type": "file",
+        "name": "console.md",
+        "label": "控制台 - Console"
+    },
+    {
+        "type": "dir",
+        "name": "other",
+        "label": "其他 - Other",
+        "collapsible": true,
+        "collapsed": true
+    }
+]
