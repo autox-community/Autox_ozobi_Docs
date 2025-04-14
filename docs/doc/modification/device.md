@@ -4,20 +4,20 @@
 
 :::
 
-## device.getCurWidth
+## device.getCurWidth()
 
-* `return` number
+-   `return` number
 
 获取当前屏幕方向的设备宽度
 
-## device.getCurHeight
+## device.getCurHeight()
 
-* `return` number
+-   `return` number
 
 获取当前屏幕方向的设备高度
 
-## device.getCurScreenSize
+## device.getCurScreenSize()
 
-* `return` Point{ x: number, y: number }
+-   `return` Point{ x: number, y: number }
 
 获取当前屏幕方向的设备屏幕尺寸

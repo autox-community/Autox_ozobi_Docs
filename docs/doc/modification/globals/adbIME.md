@@ -49,7 +49,7 @@ adbShell.exec(adbIMEShellCommand.clearAllText());
 
 ```js
 // 输入文本
-adbShell.exec(adbIMEShellCommand.inputTextB64("光标在哪我在哪"));
+adbShell.exec(adbIMEShellCommand.inputText("光标在哪我在哪"));
 ```
 
 ## adbIMEShellCommand.inputTextB64(text)

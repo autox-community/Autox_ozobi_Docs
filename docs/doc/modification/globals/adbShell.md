@@ -34,7 +34,7 @@ let adbShell = adbConnect("127.0.0.1", 5555);
 
 获取当前连接端口
 
-## adbShell.close();
+## adbShell.close()
 
 -   `return` void
 
