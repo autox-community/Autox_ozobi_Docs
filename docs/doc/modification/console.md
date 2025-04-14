@@ -3,7 +3,7 @@
 ## traceLog(msg[,path])
 
 -   `msg` any 打印信息
--   `path` string 追加到文件
+-   `path` string? 追加到文件
 -   `return` void
 
 打印出调用这个函数所在的调用栈信息[追加到文件]
