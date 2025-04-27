@@ -61,11 +61,6 @@
     },
     {
         "type": "file",
-        "name": "mqtt.md",
-        "label": "MQTT"
-    },
-    {
-        "type": "file",
         "name": "storages.md",
         "label": "本地存储 - Storages"
     },

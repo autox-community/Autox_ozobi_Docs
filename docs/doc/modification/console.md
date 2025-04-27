@@ -1,6 +1,6 @@
 # Console
 
-## traceLog(msg[,path])
+## traceLog(msg [,path])
 
 -   `msg` any 打印信息
 -   `path` string? 追加到文件

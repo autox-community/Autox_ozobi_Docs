@@ -3,5 +3,25 @@
         "type": "file",
         "name": "img.md",
         "label": "图片控件: img"
+    },
+    {
+        "type": "file",
+        "name": "button.md",
+        "label": "按钮控件: button"
+    },
+    {
+        "type": "file",
+        "name": "switch.md",
+        "label": "开关控件: switch"
+    },
+    {
+        "type": "file",
+        "name": "radio.md",
+        "label": "单选框控件: radio"
+    },
+    {
+        "type": "file",
+        "name": "input.md",
+        "label": "输入框控件: input"
     }
 ]
