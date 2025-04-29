@@ -6,6 +6,11 @@
     },
     {
         "type": "file",
+        "name": "input.md",
+        "label": "输入框控件: input"
+    },
+    {
+        "type": "file",
         "name": "button.md",
         "label": "按钮控件: button"
     },
@@ -21,7 +26,7 @@
     },
     {
         "type": "file",
-        "name": "input.md",
-        "label": "输入框控件: input"
+        "name": "checkbox.md",
+        "label": "复选框控件: checkbox"
     }
 ]
