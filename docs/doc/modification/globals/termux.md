@@ -1,4 +1,4 @@
-# termux
+# termux(command [,options])
 
 :::info 前情提要
 
@@ -25,30 +25,50 @@ adb shell pm grant 包名 com.termux.permission.RUN_COMMAND
 :::
 
 ```js
-// 返回桌面
-termux("adb shell input keyevent 3");
-// 这里默认后台执行, 若想使用自己构建的 intent 可以使用 sendTermuxIntent(intent)
+// 输出字符串到文件
+termux("echo 'hello world' > /sdcard/termuxRunResult.autox");
+
+// 获取执行结果
+termux("ls /sdcard/", {
+    outputPath: "/sdcard/termux_output.txt",
+    callback: (result) => {
+        log("输出结果:\n" + result);
+        toast(result);
+    },
+    runBackground: false, // 需要打开 termux 的悬浮窗、后台弹出界面权限
+    sessionAction: 0, //指定 会话动作
+    clean: false, // 执行完后清理输出文件
+    top: true, // 不创建新的活动
+    checkGap: 100, // 检查间隔时间，单位毫秒
+    checkCount: 600, // 检查次数
+});
 ```
 
 ## sendTermuxIntent(intent)
 
--   `intent` Intent
+-   `intent` Intent 意图
 -   `return` void
 
 发送 Intent 到 Termux
 
 ```js
-function getTermuxCommandIntent(execBinName, args) {
+// 自己构建 intent
+function getTermuxIntent(command, runBackground, sessionAction, top) {
     let intent = new Intent();
+    let args = stringArray("-c", command);
     intent.setClassName("com.termux", "com.termux.app.RunCommandService");
     intent.setAction("com.termux.RUN_COMMAND");
-    intent.putExtra("com.termux.RUN_COMMAND_PATH", "/data/data/com.termux/files/usr/bin/" + execBinName);
+    intent.putExtra("com.termux.RUN_COMMAND_PATH", "/data/data/com.termux/files/usr/bin/bash");
     intent.putExtra("com.termux.RUN_COMMAND_ARGUMENTS", args);
     intent.putExtra("com.termux.RUN_COMMAND_WORKDIR", "/data/data/com.termux/files/home");
-    intent.putExtra("com.termux.RUN_COMMAND_BACKGROUND", true);
-    intent.putExtra("com.termux.RUN_COMMAND_SESSION_ACTION", 0);
+    intent.putExtra("com.termux.RUN_COMMAND_BACKGROUND", runBackground);
+    intent.putExtra("com.termux.RUN_COMMAND_SESSION_ACTION", sessionAction);
+    if (top) {
+        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+    }
     return intent;
 }
-let intent = getTermuxCommandIntent("adb", ["shell", "input", "tap", "66", "88"]);
-sendTermuxIntent(intent); // adb 点击屏幕位置: 66,88
+let myIntent = getTermuxIntent("echo 'termux 运行成功' > " + files.cwd() + "/termuxRunResult.autox", true, 0, true);
+// 发送 intent 执行 Termux 命令
+sendTermuxIntent(myIntent);
 ```
