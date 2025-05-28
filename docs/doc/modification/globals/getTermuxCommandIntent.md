@@ -1,6 +1,6 @@
 # 获取 Termux 命令 Intent
 
-## getTermuxIntent(command, runBackground, sessionAction, top)
+## getTermuxCommandIntent(command, runBackground, sessionAction, top)
 
 -   `command` string 命令
 -   `runBackground` boolean 是否后台执行

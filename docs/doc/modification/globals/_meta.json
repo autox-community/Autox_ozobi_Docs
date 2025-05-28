@@ -36,8 +36,8 @@
     },
     {
         "type": "file",
-        "name": "getTermuxIntent.md",
-        "label": "getTermuxIntent"
+        "name": "getTermuxCommandIntent.md",
+        "label": "getTermuxCommandIntent"
     },
     {
         "type": "file",
