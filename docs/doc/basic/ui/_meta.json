@@ -1,6 +1,31 @@
 [
     {
         "type": "file",
+        "name": "horizontal.md",
+        "label": "水平布局: horizontal"
+    },
+    {
+        "type": "file",
+        "name": "linear.md",
+        "label": "线性布局: linear"
+    },
+    {
+        "type": "file",
+        "name": "frame.md",
+        "label": "帧布局: frame"
+    },
+    {
+        "type": "file",
+        "name": "relative.md",
+        "label": "相对布局: relative"
+    },
+    {
+        "type": "file",
+        "name": "grid.md",
+        "label": "网格布局: grid"
+    },
+    {
+        "type": "file",
         "name": "view.md",
         "label": "视图: view"
     },
@@ -28,26 +53,6 @@
         "type": "file",
         "name": "vertical.md",
         "label": "垂直布局: vertical"
-    },
-    {
-        "type": "file",
-        "name": "horizontal.md",
-        "label": "水平布局: horizontal"
-    },
-    {
-        "type": "file",
-        "name": "linear.md",
-        "label": "线性布局: linear"
-    },
-    {
-        "type": "file",
-        "name": "frame.md",
-        "label": "帧布局: frame"
-    },
-    {
-        "type": "file",
-        "name": "relative.md",
-        "label": "相对布局: relative"
     },
     {
         "type": "file",
