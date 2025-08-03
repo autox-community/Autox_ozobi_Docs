@@ -1,6 +1,11 @@
 [
     {
         "type": "file",
+        "name": "uiMode.md",
+        "label": "UI 模式"
+    },
+    {
+        "type": "file",
         "name": "horizontal.md",
         "label": "水平布局: horizontal"
     },
