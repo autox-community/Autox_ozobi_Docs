@@ -46,6 +46,13 @@
         "collapsed": true
     },
     {
+        "type": "dir",
+        "name": "ocr",
+        "label": "文字识别 - OCR",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
         "type": "file",
         "name": "images.md",
         "label": "图片与颜色 - Images"
