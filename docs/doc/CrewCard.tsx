@@ -14,7 +14,7 @@ const CrewCard: React.FC<CrewCardProps> = ({ avatar, nickname, comment }) => {
         border: "2px solid #ccccccaa",
         display: "flex",
         justifyContent: "left",
-        alignItems: "center",
+        alignItems: "top",
         margin: "10px",
         flexDirection: "row",
     };
