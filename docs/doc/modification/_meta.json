@@ -34,9 +34,11 @@
         "label": "MQTT"
     },
     {
-        "type": "file",
-        "name": "storages.md",
-        "label": "本地存储 - Storages"
+        "type": "dir",
+        "name": "storages",
+        "label": "本地存储 - Storages",
+        "collapsible": true,
+        "collapsed": true
     },
     {
         "type": "dir",

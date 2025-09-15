@@ -1,0 +1,12 @@
+[
+    {
+        "type": "file",
+        "name": "storages.md",
+        "label": "Storages"
+    },
+    {
+        "type": "file",
+        "name": "storage.md",
+        "label": "Storage"
+    }
+]
