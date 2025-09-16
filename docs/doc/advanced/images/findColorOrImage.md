@@ -46,6 +46,10 @@ if (!requestScreenCapture()) {
 
 该函数也可以作为全局函数使用。
 
+## images.stopScreenCapturer()
+
+停止截屏，调用之后如需截屏，需重新申请截图权限。
+
 ## images.captureScreen()
 
 -   `return` {Image}
