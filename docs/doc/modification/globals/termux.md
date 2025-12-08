@@ -1,28 +1,55 @@
-# termux(command [,options])
-
 :::info 前情提要
 
 安装 termux(版本需 0.95 以上)
 
 编辑 ~/.termux/termux.properties 文件, 将 allow-external-apps=true 前面的注释 # 去掉, 保存退出
 
-```shell
-# termux 安装 adb 工具
-pkg update
-pkg install android-tools
-```
-
-adb 连接手机后授予 termux 权限， autoxjs 或者打包后的应用
-
 (如果有)比如小米：手机需要开启 USB 调试(安全设置) - 可在开发者选项里找到
 
 (如果有)比如 oppo：手机需要开启 禁止权限监控 - 可在开发者选项里找到
 
+授予 termux 执行命令权限
+
+可在应用权限页面授予，找不到或者懒得找可以通过 shell 命令授予
+
 ```shell
+# adb 连接手机后授予 termux 权限， autoxjs 或者打包后的应用
 adb shell pm grant 包名 com.termux.permission.RUN_COMMAND
 ```
 
 :::
+
+:::info 提示
+
+如果执行命令没反应的话, 可以先手动打开 termux
+:::
+
+# termux.exec(command)
+
+```js
+// 只是发送命令, 无法获取结果
+// 示例:
+termux.exec("pwd");
+```
+
+# termux.exec(command, callback)
+
+```js
+// 向 termux 发送命令, 并通过回调获取结果
+// 示例:
+termux.exec("pwd", (result) => {
+    log(result); // 日志应打印出: {stdout=/data/data/com.termux/files/home, stderr=, exitCode=0, errmsg=, err=-1}
+});
+```
+
+---
+
+:::warning 稳定性: 弃用
+
+65824 之后修改为 termux.exec(command, callback)
+:::
+
+# termux(command [,options])
 
 ```js
 // 输出字符串到文件
