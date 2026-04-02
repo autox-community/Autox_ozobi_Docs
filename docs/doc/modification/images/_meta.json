@@ -1,0 +1,12 @@
+[
+    {
+        "type": "file",
+        "name": "images.md",
+        "label": "Images"
+    },
+    {
+        "type": "file",
+        "name": "findColorOrImage.md",
+        "label": "找图找色"
+    }
+]

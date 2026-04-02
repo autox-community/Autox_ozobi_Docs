@@ -55,8 +55,8 @@
         "collapsed": true
     },
     {
-        "type": "file",
-        "name": "images.md",
+        "type": "dir",
+        "name": "images",
         "label": "图片与颜色 - Images"
     },
     {
