@@ -57,7 +57,9 @@
     {
         "type": "dir",
         "name": "images",
-        "label": "图片与颜色 - Images"
+        "label": "图片与颜色 - Images",
+        "collapsible": true,
+        "collapsed": true
     },
     {
         "type": "file",
